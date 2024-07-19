@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive landing page design</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+</head>
+<body>
+    <!--navbar------------------------->
+    <div class="navbar sticky-top navbar-expand-lg p-0 bg-white">
+        <div class="container">
+            <!------------->
+                <p class="fw-bold navbar-brand m-0"><span style="color: var(--yellow-color);">BULID</span>CON</p>
+            <!--------------->
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#main" style="scroll-behavior: smooth;">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <!------------->
+            <div class="collapse navbar-collapse " id="main">
+                <ul class="navbar-nav  ms-auto fw-bold " id="main">
+                    <li class="nav-item"><a href="#" class="nav-link active p-3">HOME</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link p-3">ABOUT</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link p-3">Services</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link p-3">Portflio</a></li>
+                    <li class="nav-item"><a href="#team" class="nav-link p-3">TEAM</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link p-3">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--navbar------------------------->
+    <!----------- Start Section-->
+    <section class="section mb-5">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="images/home-1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block text-light fs-5">
+                    <h5 class="d-md-block">YOUR DREAM HOUSE</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorem! Lorem ipsum dolor sit amet consectetur..</p>
+                    <button style="background-color: var(--yellow-color);" class="btn rounded mt-3">Learn More</button>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/home-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block text-light fs-5">
+                    <h5>ALWAYS DEDICATED</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, omnis aliquam quasi veritatis minima debitis eligendi.</p>
+                    <button style="background-color: var(--yellow-color);" class="btn rounded mt-3">Learn More</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/home-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block text-light fs-5">
+                    <h5 style="letter-spacing: 1px; font-size: 20px;">TRUE CONSTRUCTION</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit aspernatur mollitia aliquid officiis ipsam veniam eum..</p>
+                    <button style="background-color: var(--yellow-color);" class="btn rounded mt-3">Learn More</button>
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev text-center" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                <span class="" aria-hidden="true"><i class="fas fa-angle-left text-center text-light fs-1"></i></span>
+                <span class="visually-hidden bg-white">Previous</span>
+                </button>
+                <button class="carousel-control-next text-center" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                <span class="" aria-hidden="true"><i class="fas fa-angle-right text-center text-light fs-1"></i></span>
+                <span class="visually-hidden bg-white">Next</span>
+                </button>
+            </div>
+    </section>
+    <!----------- End Section-->
+    <!------ start about -->
+    <section id="about">
+        <div class="abut p-5 mb-5" style="background-color: var(--about-color);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-5 col-sm-12 ">
+                        <div class="img-cont">
+                            <img class="img-fluid" src="images/about.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-7 col-sm-12 pt-3">
+                        <h5 class="fw-bold fs-5">We Provide The Best Quality Services Ever</h5>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ullam voluptatem dolore laboriosam unde qui possimus reiciendis,
+                            et fugit molestiae eligendi dicta culpa error alias suscipit eveniet esse dolorum magni! Eligendi,
+                            quas odio qui, quo molestias,
+                            quibusdam excepturi sapiente deserunt
+                            dolore magni nam asperiores eius architecto laborum iste beatae ullam facere.</p>
+                    <button style="background-color: var(--yellow-color);" class="btn rounded mt-3">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------ End about -->
+    <!----start services-->
+    <section id="services" class="services py-5 my-5" style="background-color: var(--about-color);">
+        <div class="container">
+            <div class="heading text-center mb-2">
+                <h5 class="fw-bold">Our Services</h5>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Expedita, corrupti!</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mt-3" >
+                    <div class="info text-center text-light py-4 px-1 bg-dark">
+                        <i class="fa-regular fa-copy fs-3"></i>
+                        <h5 class="fs-4">Best Quality</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora minima beatae animi harum nostrum unde!</p>
+                        <button style="background-color: var(--yellow-color);" class="btn rounded mt-3">Read More</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="info text-center text-light py-4 px-1 bg-dark">
+                        <i class="fa-regular fa-clipboard fs-3"></i>
+                        <h5 class="fs-4">Sustainabiliyty</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora minima beatae animi harum nostrum unde!</p>
+                        <button style="background-color: var(--yellow-color);" class="btn rounded mt-3">Read More</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-3 ">
+                    <div class="info text-center text-light py-4 px-1 bg-dark">
+                        <i class="fa-regular fa-copy fs-3"></i>
+                        <h5 class="fs-4">Integrity</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora minima beatae animi harum nostrum unde!</p>
+                        <button style="background-color: var(--yellow-color);" class="btn rounded mt-3">Read More</button>
+                    </div>
+                </div>
+            </div>
+                
+            
+        </div> 
+    </section>
+    <!----End services-->
+    <!----our projects-->
+    <section id="projects" class="our-projects py-5 my-5" style="background-color: var(--about-color);">
+        <div class="container">
+            <div class="heading text-center mb-5">
+                <h5 class="fw-bold">Our Projects</h5>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Expedita, corrupti!</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card bg-white p-2 mt-3" >
+                        <div class="img-cont">
+                            <img src="images/project-1.jpg" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Building Make</h5>
+                            <p class="card-text mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, a? Perspiciatis blanditiis nesciunt incidunt dolor.</p>
+                            <button style="background-color: var(--yellow-color);" class="btn rounded mt-4">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card bg-white mt-3 p-2" >
+                        <div class="img-cont">
+                            <img src="images/project-2.jpg" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Building Make</h5>
+                            <p class="card-text mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, a? Perspiciatis blanditiis nesciunt incidunt dolor.</p>
+                            <button style="background-color: var(--yellow-color);" class="btn rounded mt-3">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card bg-white mt-3 p-2">
+                        <div class="img-cont">
+                            <img src="images/project-3.jpg" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Building Make</h5>
+                            <p class="card-text mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, a? Perspiciatis blanditiis nesciunt incidunt dolor.</p>
+                            <button style="background-color: var(--yellow-color);" class="btn rounded mt-3">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!---- end our projects-->
+    <!---- start our team-->
+    <section id="team" class="our-team py-5 my-5" style="background-color: var(--about-color);">
+        <div class="container">
+            <div class="heading text-center mb-5">
+                <h5 class="fw-bold">Our Projects</h5>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Expedita, corrupti!</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                    <div class="info">
+                        <div class="card bg-white d-flex align-items-center text-center py-3" >
+                            <img src="images/team-1.jpg" class="card-img-top rounded-circle" style="width: 90px;" height="100px;" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Jack Wilson</h5>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa veniam provident natus assumenda? Consequuntur, voluptatum!</p>
+                            </div>
+                            <div class="card-body pt-0">
+                                <a href="#" class="card-link"><i class="fa-brands text-black fa-facebook"></i></a>
+                                <a href="#" class="card-link"><i class="fa-brands text-black fa-twitter"></i></a>
+                                <a href="#" class="card-link"><i class="fa-brands text-black fa-linkedin"></i></a>
+                                <a href="#" class="card-link"><i class="fa-brands text-black fa-instagram"></i></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                    <div class="card bg-white d-flex align-items-center text-center py-3"  >
+                        <img src="images/team-2.jpg" class="card-img-top rounded-circle" style="width: 90px;" height="100px;" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Jack Wilson</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa veniam provident natus assumenda? Consequuntur, voluptatum!</p>
+                        </div>
+                        <div class="card-body pt-0">
+                            <a href="#" class="card-link"><i class="fa-brands text-black fa-facebook"></i></a>
+                            <a href="#" class="card-link"><i class="fa-brands text-black fa-twitter"></i></a>
+                            <a href="#" class="card-link"><i class="fa-brands text-black fa-linkedin"></i></a>
+                            <a href="#" class="card-link"><i class="fa-brands text-black fa-instagram"></i></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                    <div class="card bg-white d-flex align-items-center text-center py-3" >
+                        <img src="images/team-3.jpg" class="card-img-top rounded-circle" style="width: 90px;" height="100px;" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Jack Wilson</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa veniam provident natus assumenda? Consequuntur, voluptatum!</p>
+                        </div>
+                        <div class="card-body pt-0">
+                            <a href="#" class="card-link"><i class="fa-brands text-black fa-facebook"></i></a>
+                            <a href="#" class="card-link"><i class="fa-brands text-black fa-twitter"></i></a>
+                            <a href="#" class="card-link"><i class="fa-brands text-black fa-linkedin"></i></a>
+                            <a href="#" class="card-link"><i class="fa-brands text-black fa-instagram"></i></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                    <div class="card bg-white d-flex align-items-center text-center py-3">
+                        <img src="images/team-4.jpg" class="card-img-top rounded-circle" style="width: 90px;" height="100px;" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Jack Wilson</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa veniam provident natus assumenda? Consequuntur, voluptatum!</p>
+                        </div>
+                        <div class="card-body pt-0">
+                            <a href="#" class="card-link"><i class="fa-brands text-black fa-facebook"></i></a>
+                            <a href="#" class="card-link"><i class="fa-brands text-black fa-twitter"></i></a>
+                            <a href="#" class="card-link"><i class="fa-brands text-black fa-linkedin"></i></a>
+                            <a href="#" class="card-link"><i class="fa-brands text-black fa-instagram"></i></a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---- start our team-->
+    <section id="contact" class="contact py-5 my-5" style="background-color: var(--about-color);">
+        <div class="container">
+            <div class="heading text-center mb-5">
+                <h5 class="fw-bold">Contact Us</h5>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Expedita, corrupti!</p>
+            </div>
+            <div class="row">
+                <div class="inputs py-3 bg-white">
+                    <input class="w-100 mb-3 p-1" type="text" placeholder="Full Name" style="border: none; border: 2px solid #dce0e2;;">
+                    <input class="w-100 mb-3 p-1"  type="email" placeholder="Email" style="border: none; border: 2px solid #dce0e2;">
+                    <input class="w-100 mb-3 p-1 inp" type="text" placeholder="message" style="border: none; border: 2px solid #dce0e2; height: 90px;" >
+                    <button style="background-color: var(--yellow-color); border: none;" class="btn rounded mt-4 w-100 mb-3 p-1">Send Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------end contact us-->
+
+    <footer>
+        <div class="inner w-100 text-center bg-dark text-light p-2">
+            All Rights Reserved By @Website Name
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+<script src="js/all.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
