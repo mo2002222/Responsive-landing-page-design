@@ -1,0 +1,88 @@
+:root {
+  --yellow-color:#ffb300;
+  --about-color:#eff7fa;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: #000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar .nav-link:hover {
+  color: var(--yellow-color);
+}
+.navbar .collapse .navbar-nav .active {
+  color: var(--yellow-color);
+}
+.navbar .navbar-toggler {
+  border: 2px solid #6c757d;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded=true] {
+  border-color: #33d1cc;
+}
+
+.section {
+  height: 100vh;
+}
+.section .carousel {
+  height: 92vh;
+}
+.section .carousel .carousel-item {
+  position: relative;
+  height: 100vh;
+}
+.section .carousel .carousel-item img {
+  height: 95vh;
+}
+.section .carousel .carousel-item::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(16, 13, 13, 0.75);
+  top: 0;
+}
+.section .carousel .carousel-caption {
+  z-index: 1000;
+  top: 56%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.section .carousel .carousel-caption h5 {
+  letter-spacing: 5px;
+}
+.section .carousel .carousel-caption p {
+  font-size: 13px;
+}
+
+.contact ::placeholder {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+.contact ::-ms-input-placeholder {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(203, 192, 214);
+}/*# sourceMappingURL=style.css.map */
